@@ -1,0 +1,8 @@
+fr/factionstats/commands/ClassementCommand.class
+fr/factionstats/managers/StatsManager.class
+fr/factionstats/FactionStats.class
+fr/factionstats/listeners/StatsListener.class
+fr/factionstats/commands/StatsCommand.class
+fr/factionstats/managers/MessageManager.class
+fr/factionstats/commands/ClassementCommand$StatExtractor.class
+fr/factionstats/models/PlayerStats.class

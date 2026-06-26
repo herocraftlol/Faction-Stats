@@ -1,0 +1,31 @@
+# ==========================================
+#        FactionStats - Configuration
+# ==========================================
+
+# Préfixe du plugin dans les messages
+prefix: "&8[&6FactionStats&8] &r"
+
+# Couleurs des messages
+colors:
+  primary: "&6"
+  secondary: "&e"
+  accent: "&a"
+  error: "&c"
+  info: "&7"
+
+# Nombre de joueurs dans le classement (max 10)
+classement-taille: 10
+
+# Mise à jour automatique des stats (en secondes)
+# 0 = désactivé
+auto-save-interval: 300
+
+# Sauvegarde des données
+storage:
+  type: YAML  # YAML uniquement pour l'instant
+
+# Messages personnalisables
+messages:
+  no-permission: "&cVous n'avez pas la permission d'effectuer cette action."
+  player-not-found: "&cJoueur introuvable : &e{player}"
+  player-never-joined: "&cCe joueur ne s'est jamais connecté sur ce serveur."
