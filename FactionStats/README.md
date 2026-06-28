@@ -1,6 +1,23 @@
 # ⚔ FactionStats — Plugin Minecraft 1.21
 
-Plugin de **statistiques complètes** pour serveur **Faction Survie** Minecraft 1.21 (Spigot/Paper).
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21-green)
+![Spigot](https://img.shields.io/badge/Spigot-Paper%20%7C%20Purpur-orange)
+
+Plugin de **statistiques complètes** pour serveur **Faction Survie** Minecraft 1.21. Suivi des kills, morts, blocs, PvP, progressions et bien plus encore !
+
+---
+
+## ⭐ Fonctionnalités
+
+- 📊 **Statistiques complètes** de combat, survie et progression
+- 🏆 **Classements Top 10** par catégorie (PvP, mobs, K/D, etc.)
+- ⚔️ **Suivi PvP** avec ratio K/D calculé automatiquement
+- 📈 **Progression** — Advancements accomplis
+- ⛏️ **Survie** — Blocs cassés/placés, distance parcourue, items craftés/ramassés
+- ⏱️ **Temps de jeu** avec historique de connexion
+- 💾 **Sauvegarde automatique** et persistance des données
+- 🎨 **Interface stylisée** avec codes couleur Minecraft
 
 ---
 
@@ -11,14 +28,18 @@ Plugin de **statistiques complètes** pour serveur **Faction Survie** Minecraft 
 - Spigot ou Paper **1.21**
 - Maven (pour compiler depuis les sources)
 
-### Compiler le plugin
+### Téléchargement
+Téléchargez la dernière version depuis la [page des releases](https://github.com/abelliardadresse-alt/Faction-Stats/releases/latest).
+
+### Compiler depuis les sources
 ```bash
-cd FactionStats
+git clone https://github.com/abelliardadresse-alt/Faction-Stats.git
+cd Faction-Stats/FactionStats
 mvn clean package
 ```
 Le fichier `.jar` se trouve dans `target/FactionStats-1.0.0.jar`.
 
-### Installer
+### Installer le plugin
 1. Copiez `FactionStats-1.0.0.jar` dans le dossier `plugins/` de votre serveur.
 2. Redémarrez le serveur.
 3. Les fichiers de configuration sont créés automatiquement dans `plugins/FactionStats/`.
@@ -204,3 +225,21 @@ FactionStats/
 | Spigot  | 1.21    | ✅ Compatible |
 | Paper   | 1.21    | ✅ Compatible |
 | Purpur  | 1.21    | ✅ Compatible |
+
+---
+
+## 📄 Licence
+
+Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
+
+## 🤝 Contribuer
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request sur [GitHub](https://github.com/abelliardadresse-alt/Faction-Stats).
+
+---
+
+<p align="center">
+  Fait avec ❤️ pour la communauté Minecraft francophone
+</p>
